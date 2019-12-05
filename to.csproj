@@ -2,12 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Version>0.0.3-rc.1</Version>
     <Authors>Petrova E.I.</Authors>
     <Company>yaahooo.com</Company>
-    <Product>Lab 2</Product>
+    <Product>Lab 6</Product>
     <PackageId>MyApp</PackageId>
-    <FileVersion>0.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +19,9 @@
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="serilog" Version="2.9.0" />
+    <PackageReference Include="serilog.sinks.console" Version="3.1.1" />
+    <PackageReference Include="serilog.sinks.file" Version="4.1.0" />
   </ItemGroup>
 
   <ItemGroup>
